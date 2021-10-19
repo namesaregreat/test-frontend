@@ -1,3 +1,5 @@
- import dataFetcher from "./utils/dataFetcher";
+import homePage from "./pages/home"
 
- dataFetcher()
+const app = document.querySelector('#app')
+
+app.appendChild(landing())

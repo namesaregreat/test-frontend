@@ -1,13 +1,12 @@
-const dataFetcher = function(url=null){
+const dataFetcher = async function(url=null){
 
     if(url===null) {
         return "error"
     } else {
-        const data = fetch(url)
-        .then(res=>res.json())
-        .then(data=>data)
+        const response = await fetch(url)
+        const toDoJSON = await response.json()
         
-        return data
+        return toDoJSON
     }
 }
 
