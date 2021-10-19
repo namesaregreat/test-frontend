@@ -1,6 +1,6 @@
 import { logo } from "../components/logo";
 import header from "../components/header";
-import button from "../components/button";
+import button from "../components/link";
 import makeElement from "../utils/makeElement";
 
 const homePage = function() {

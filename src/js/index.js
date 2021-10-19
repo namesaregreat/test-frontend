@@ -1,5 +1,5 @@
-import homePage from "./pages/home"
+import homePage from "./pages/homePage"
 
 const app = document.querySelector('#app')
 
-app.appendChild(landing())
+app.appendChild(homePage())
