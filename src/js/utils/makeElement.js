@@ -1,8 +1,6 @@
-import { template } from "lodash"
-
 const makeElement = function(templateString = ``) {
     const docFrag = document.createRange().createContextualFragment(templateString)
-    const element = docFrag.children(0)
+    const element = docFrag.children[0]
 
     return element
 }

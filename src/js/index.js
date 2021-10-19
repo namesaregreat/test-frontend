@@ -1,5 +1,14 @@
-import homePage from "./pages/homePage"
+import {Router} from "./routes/router";
+import { createStore, getStore } from "./redux/store";
+import dataFetcher from "./utils/dataFetcher";
+const app = document.querySelector("#app");
+Router(window.location.pathname)
 
-const app = document.querySelector('#app')
 
-app.appendChild(homePage())
+const onAppInit = async function(e){
+    let tasks = await dataFetcher('./data/todo.json')
+
+    createStore(tasks) 
+}
+
+window.addEventListener('load', onAppInit)

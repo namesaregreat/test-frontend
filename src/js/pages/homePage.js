@@ -4,12 +4,12 @@ import button from "../components/link";
 import makeElement from "../utils/makeElement";
 
 const homePage = function() {
-    const pageHeader = document.createElement('header')
-    pageHeader.appendChild(makeElement(logo()))
-    pageHeader.appendChild(makeElement(header('A Simple Way to Manage your Work')))
-    pageHeader.appendChild(makeElement(button('To Do List')))
+    const page = document.createElement('header')
+    page.append(makeElement(logo))
+    page.append(makeElement(header('ui-small-header','A Simple Way to Manage your Work')))
+    page.append(makeElement(button('To Do List')))
 
-    return pageHeader
+    return page
 }
 
 export default homePage
