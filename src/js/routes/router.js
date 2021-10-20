@@ -5,7 +5,7 @@ const routes = {
 }
 
 const Router =  function (pathname)   {
-    
+
     const app = document.querySelector('#app')
     app.innerHTML = ''
 
@@ -14,7 +14,8 @@ const Router =  function (pathname)   {
         pathname,
         window.location.origin + pathname
     )  
-         app.appendChild(routes[window.location.pathname])
+ 
+    app.appendChild(routes[window.location.pathname])
 }
 
 export { Router}
