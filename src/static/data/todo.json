@@ -1,21 +1,46 @@
 [{
-"id":"wsdasdsad",
-"category":"home",
-"description":"test 1",
-"isComplete":false
+    "id": "c102b20c-e137-4b3a-ba14-415a52c1740b",
+    "category": "home",
+    "title": "clean the kitchen",
+    "isComplete": false,
+    "startDate": "Wednesday October 20th",
+    "startTime":"9:00am",
+    "endDate": "Wednesday October 20th",
+    "endTime":"10:00am"
 },{
-"id":"wsdasdsad",
-"category":"health",
-"description":"test 2",
-"isComplete":false
+    "id": "76beac70-01b3-416c-8bea-c6d87c52486c",
+    "category": "work",
+    "title": "Do the paperwork",
+    "isComplete": true,
+    "startDate": "Monday October 18th",
+    "startTime":"11:00am",
+    "endDate": "Monday October 18th",
+    "endTime":"12:00pm"
 },{
-"id":"wsdasdsad",
-"category":"school",
-"description":"test 3",
-"isComplete":true
+    "id": "9b325db4-ec6a-4cb0-8a62-99f928982aea",
+    "category": "school",
+    "title": "Finish Lab",
+    "isComplete": true,
+    "startDate": "Friday October 22nd",
+    "startTime":"9:00pm",
+    "endDate": "Friday October 22nd",
+    "endTime":"11:00pm"
 },{
-"id":"wsdasdsad",
-"category":"school",
-"description":"test 4",
-"isComplete":false
+    "id": "0a409106-386d-4e8f-b9a1-69ede86ad80c",
+    "category": "friends",
+    "title": "hang out",
+    "isComplete": true,
+    "startDate": "Saturday October 23rd",
+    "startTime":"10:00am",
+    "endDate": "Saturday October 23rd",
+    "endTime":"4:00pm"
+},{
+    "id": "96c2e2c6-5e1e-4a67-aa8b-78305d998550",
+    "category": "pets",
+    "title": "walk dogs",
+    "isComplete": true,
+    "startDate": "Saturday October 23rd",
+    "startTime":"9:00am",
+    "endDate": "Saturday October 23rd",
+    "endTime":"10:00am"
 }]
