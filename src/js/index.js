@@ -6,7 +6,7 @@ Router(window.location.pathname)
 
 
 const onAppInit = async function(e){
-    let tasks = await dataFetcher('./static/data/todo.json')
+    let tasks = await dataFetcher('./data/todo.json')
 
     createStore(tasks) 
 }
